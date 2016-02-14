@@ -1,0 +1,122 @@
+När föddes Pythagoras?
+580 f.kr
+630 f.kr
+480 f.kr
+530 f.kr
+680 f.kr
+###
+Vem levde samtidigt som Euler?
+Leibniz
+Riemann
+Fermat
+Abel
+Descartes
+###
+Vilka enheter återfinns i kvaternionerna?
+i,j,k
+a,b,c
+α,β,γ
+f,f´,f´´
+dx,dy,dz
+1,2,3
+###
+Vem införde variabel, funktion och koordinat?
+Leibniz
+Descartes
+Euler
+Lagrange
+Newton
+Fermat
+Bernoulli
+###
+I vilket land föddes René Descartes?
+Nederländerna
+Frankrike
+Sverige
+Polen
+Ryssland
+England
+###
+Första kvinnliga matematikern?
+Hypatia
+Eudoxos
+Kovalevskaja
+Poincaré
+Abel
+###
+Vem skrev Almagest?
+Ptolemaios
+Lagrange
+Al-khwarizmi
+Eudoxos
+Cardano
+Hilbert
+###
+Varifrån kom Pappos?
+Alexandria
+Babylonien
+Sparta
+Parga
+Kreta
+Rom
+###
+Vem skrev Elementa?
+Euklides
+Thales
+Eudoxos
+Archimedes
+Euler
+Einstein
+###
+Vem skrev Ars Magna?
+Cardano
+al-Khwarizmi
+Bernoulli
+Fermat
+Newton
+Fourier
+###
+Vem levde först?
+Thales
+Platon
+Eudoxos
+Euklides
+Aristoteles
+Pappos
+###
+När levde Cardano?
+1500-talet
+1300-talet
+1400-talet
+1600-talet
+1200-talet
+###
+Vad är Apollonios känd för?
+Kägelsnitt
+Torusen
+Himlakroppars rörelse
+Derivata
+Kordan
+Sinus
+###
+e^πi+1 = ?
+0
+1
+-1
+∞
+-∞
+###
+De reella talen är..
+Överuppräkneliga
+Uppräkneligt oändliga
+Uppräkneliga
+Nollskilda
+###
+Vad är perimeter?
+Omkrets
+Diameter
+Radie
+Mittpunkt
+Stödben
+Vinkelspets
+###

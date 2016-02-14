@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="green">#00FF00</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#CCCCCC</color>
+    <color name="gold">#FFD700</color>
+
+    <color name="neutralAnswerBG">#FFFF00</color>
+    <color name="correctAnswerBG">#00FF00</color>
+    <color name="wrongAnswerBG">#FF0000</color>
+    <color name="gameTop">#509ddd</color>
+    <color name="gameBottom">#142030</color>
+
+</resources>

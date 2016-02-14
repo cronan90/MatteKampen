@@ -1,0 +1,192 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.joakim.mattekampen.GameActivity"
+    android:background="@drawable/game_background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="question/total"
+            android:id="@+id/questionNumber"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/silver"
+            android:textStyle="bold"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="QuestionLine"
+            android:id="@+id/questionLine"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.20"
+            android:gravity="center_vertical|center_horizontal"
+            android:baselineAligned="false"
+            android:divider="@color/green">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="option1"
+                android:id="@+id/option1"
+                android:paddingRight="30dp"
+                android:onClick="generateNewQuestion"
+                android:clickable="true"
+                android:textColor="@color/neutralAnswerBG"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="option2"
+                android:id="@+id/option2"
+                android:paddingLeft="30dp"
+                android:clickable="true"
+                android:onClick="generateNewQuestion"
+                android:textColor="@color/neutralAnswerBG"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:gravity="center_vertical|center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="option3"
+                android:id="@+id/option3"
+                android:paddingRight="30dp"
+                android:clickable="true"
+                android:onClick="generateNewQuestion"
+                android:textColor="@color/neutralAnswerBG"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="option4"
+                android:id="@+id/option4"
+                android:paddingLeft="30dp"
+                android:clickable="true"
+                android:onClick="generateNewQuestion"
+                android:textColor="@color/neutralAnswerBG"
+                android:textIsSelectable="false"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/hidden"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.2">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="#RÄTT"
+                    android:id="@+id/textView2"
+                    android:layout_column="0"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"
+                    android:paddingRight="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="#FEEEEL"
+                    android:id="@+id/textView3"
+                    android:layout_column="1"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:paddingLeft="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="0"
+                    android:id="@+id/correctCounter"
+                    android:layout_column="0"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textColor="@color/green"
+                    android:paddingRight="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="0"
+                    android:id="@+id/wrongCounter"
+                    android:layout_column="1"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:paddingLeft="20dp" />
+
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
